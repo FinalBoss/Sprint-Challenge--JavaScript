@@ -17,11 +17,11 @@
 
 const rexObj = {
 
-name: tyrannosaurus,
-diet: carnivorous,
-weight: 7000kg,
-length: 12m,
-period: Late Cretaceous,
+name: "tyrannosaurus",
+diet: "carnivorous",
+weight: 7000,
+length: 12,
+period: "Late Cretaceous",
 sound: function () {
 
   return "RAWERSRARARWERSARARARRRR!"
@@ -32,20 +32,20 @@ sound: function () {
 
 const stegoObj = {
 
-  name: stegosaurus,
-  diet: herbivorous,
-  weight: 2000kg,
-  length: 9m,
-  period: Late Jurassic
+  name: "stegosaurus",
+  diet: "herbivorous",
+  weight: 2000,
+  length: 9,
+  period: "Late Jurassic"
 }
 
 const raptorObj = {
 
-  name: velociraptor,
-  diet: carnivorous,
-  weight: 15kg,
-  length: 1.8m,
-  period: Late Cretaceous
+  name: "velociraptor",
+  diet: "carnivorous",
+  weight: 15,
+  length: 1.8,
+  period: "Late Cretaceous"
 
 
 
@@ -157,7 +157,7 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 
 const lowCaseAnimalNames = zooAnimals.map((animal_name) => {
 
-return animal_name >= animal_name.toLowerCase()
+return  animal_name.animal_name.toLowerCase()
 
 });
 console.log(lowCaseAnimalNames);

@@ -21,17 +21,18 @@ function consume (a, b, cb) {
 */
 
 
-consume(a, b, cb) {
-function sum() {
+
+function consume(a, b, cb) {
+function add() {
  return cb(a +b)
 }
 function multiply () {
 return cb(a*b)
 }
 
-function greeting (first-name, last-name) {
+function greeting (first_name, last_name) {
 
-return cb(`Hello ${first-name} ${last-name}, nice to meet you!`)
+return cb(`Hello ${first_name} ${last_name}, nice to meet you!`)
 }
 
 }
